@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+
+#idErreur{
+
+	position:relative;
+	text-align: center;
+	color: red;
+}
+#connexion_main
+{
+
+	position: absolute;
+   	left: 50%;
+   	top: 50%;
+   	width: 600px;
+   	margin-left: -310px;
+   	margin-top: -185px;
+
+
+
+/*	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border-style: solid;
+    border-width: medium;
+*/
+}
+h1
+{
+	position:relative;
+	margin-top: 5px;
+	text-align: center;
+}
+.cconnexion_main_form
+{
+	border-style: solid;
+    border-width: medium;
+}
+.nomPrenom
+{
+    display: flex;
+    margin: 4px;
+
+    margin-left: auto;
+    margin-right: auto
+}
+
+.connexion_ids
+{
+    margin:10px;
+    display: block;
+
+}
+.connexion_ids >input
+{
+	position: relative;
+	width:99%;
+	left:20%;
+    margin-left: 20px;
+}
+.in{
+    margin-left: 125px;
+}
+
+.info
+{
+    display:block;
+    margin-bottom: 10px;
+}
+.connexion_info{
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.connexion_info >input
+{
+	position:absolute;
+	width:55%;
+	left:20%;
+    margin-left: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center
+
+}
+
+.connexion_button
+{
+
+    align-content: center;
+	margin-top: 2px;
+	margin-left: 30px;
+    margin-right: 50px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+
+.connexion_link
+{
+	margin-top: 1px;
+	margin-left: 200px;
+	display: inline-block;
+}

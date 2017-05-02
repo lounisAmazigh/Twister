@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+#connexion_main
+{
+
+	position: absolute;
+   	left: 50%;
+   	top: 50%;
+   	width: 400px;
+   	margin-left: -210px;
+   	margin-top: -185px;
+
+
+
+/*	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border-style: solid;
+    border-width: medium;
+*/
+}
+h1
+{
+	position:relative;
+	margin-top: 5px;
+	text-align: center;
+}
+.cconnexion_main_form
+{
+	border-style: solid;
+    border-width: medium;
+}
+
+.connexion_ids
+{
+	padding-left:20px;
+	padding-right:20px;
+}
+.connexion_ids >input
+{
+	position:absolute;
+	width:55%;
+	left:30%;
+}
+
+.connexion_button
+{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+
+.connexion_link
+{
+	margin-top: 1px;
+	margin-left: 200px;
+	display: inline-block;
+}

@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+.header{
+    display: flex;
+    border-style: solid;
+}
+.logo{
+    border-style: solid;
+}
+.search{
+    border-style: solid;
+}
+.logout{
+    border-style: solid;
+}
+
+.content{
+    display: flex;
+    border-style: solid;
+}
+.stat{
+    border-style: solid;
+}
+
+.actu{
+    display: block;
+    border-style: solid;
+}
+.newMessage{
+    border-style: solid;
+}
+.message{
+    border-style: solid;
+}

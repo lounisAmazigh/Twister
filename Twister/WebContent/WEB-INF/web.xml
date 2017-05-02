@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd"> 
+<web-app> 
+	<display-name>Twitter</display-name> 
+	<welcome-file-list>
+    	<welcome-file>index.html</welcome-file>
+  	</welcome-file-list>
+	
+	<servlet> 
+		<servlet-name>CreateUser</servlet-name> 
+		<servlet-class>servlets.CreateUser</servlet-class> 
+	</servlet> 
+	<servlet> 
+		<servlet-name>DeleteFriends</servlet-name> 
+		<servlet-class>servlets.DeleteFriends</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>DeleteMessage</servlet-name> 
+		<servlet-class>servlets.DeleteMessage</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>FriendsMessages</servlet-name> 
+		<servlet-class>servlets.FriendsMessages</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>ListeMessage</servlet-name> 
+		<servlet-class>servlets.ListeMessage</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>Login</servlet-name> 
+		<servlet-class>servlets.Login</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>LogOut</servlet-name> 
+		<servlet-class>servlets.LogOut</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>NewFriends</servlet-name> 
+		<servlet-class>servlets.NewFriends</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>newMessage</servlet-name> 
+		<servlet-class>servlets.newMessage</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>NewComment</servlet-name> 
+		<servlet-class>servlets.NewComment</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>DeleteComment</servlet-name> 
+		<servlet-class>servlets.DeleteComment</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>SearchFriend</servlet-name> 
+		<servlet-class>servlets.SearchFriend</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>GetMessage</servlet-name> 
+		<servlet-class>servlets.GetMessage</servlet-class> 
+	</servlet>
+	<servlet> 
+		<servlet-name>hello</servlet-name> 
+		<servlet-class>servlets.hello</servlet-class> 
+	</servlet>
+	
+	
+	
+	<servlet-mapping> 
+		<servlet-name>CreateUser</servlet-name> 
+		<url-pattern>/user/create</url-pattern> 
+	</servlet-mapping> 
+	<servlet-mapping> 
+		<servlet-name>DeleteFriends</servlet-name> 
+		<url-pattern>/friend/Delete</url-pattern> 
+	</servlet-mapping> 
+	<servlet-mapping> 
+		<servlet-name>DeleteMessage</servlet-name> 
+		<url-pattern>/message/delete</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping> 
+		<servlet-name>FriendsMessages</servlet-name> 
+		<url-pattern>/friend/message</url-pattern> 
+	</servlet-mapping> 
+	<servlet-mapping> 
+		<servlet-name>ListeMessage</servlet-name> 
+		<url-pattern>/message/liste</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping> 
+		<servlet-name>Login</servlet-name> 
+		<url-pattern>/user/login</url-pattern> 
+	</servlet-mapping> 
+	<servlet-mapping> 
+		<servlet-name>LogOut</servlet-name> 
+		<url-pattern>/user/out</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping> 
+		<servlet-name>NewFriends</servlet-name> 
+		<url-pattern>/friend/new</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping> 
+		<servlet-name>newMessage</servlet-name> 
+		<url-pattern>/message/new</url-pattern> 
+	</servlet-mapping> 
+	<servlet-mapping> 
+		<servlet-name>NewComment</servlet-name> 
+		<url-pattern>/comment/new</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping> 
+		<servlet-name>DeleteComment</servlet-name> 
+		<url-pattern>/comment/delete</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping> 
+		<servlet-name>SearchFriend</servlet-name> 
+		<url-pattern>/user/list</url-pattern> 
+	</servlet-mapping> 
+	<servlet-mapping> 
+		<servlet-name>GetMessage</servlet-name> 
+		<url-pattern>/message/refresh</url-pattern> 
+	</servlet-mapping>  
+	<servlet-mapping> 
+		<servlet-name>hello</servlet-name> 
+		<url-pattern>/hi</url-pattern> 
+	</servlet-mapping>  
+	
+	
+
+	
+	
+</web-app>
+
